@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+   <head>
+     <title>ItaloVeneziani-PersonalTrainer</title>
+
+             <link rel="stylesheet" type="text/css" href="css/estilo.css">
+             <meta charset="utf-8">
+             <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+             <script type="text/javascript">
+            function validar () {
+
+            var n, e, t  ;
+
+            n = document.form1.txtnome.value ;
+
+            if (n.length == 0){
+
+              alert("Preecha o campo nome") ;
+
+              document.form1.txtnome.style.background= " #FF8C00 "
+              document.form1.txtnome.focus()
+              return false ;
+           }
+
+           e = document.form1.txtemail.value ;
+          
+           if (e.indexOf("@")  < 0) {
+
+               alert("Preecha corretamente o campo E-mail") ;
+
+               document.form1.txtemail.style.background= " #FF8C00 "
+               document.form1.txtemail.focus()
+               document.form1.txtemail.value =""
+               return false ;
+
+          }
+
+            t = document.form1.txttelefone.value ;
+          
+          if (isNaN(t) || t.length == 0) {
+
+               alert("Preecha o campo Telefone") ;
+
+               document.form1.txttelefone.style.background= " #FF8C00 "
+               document.form1.txttelefone.focus()
+               document.form1.txttelefone.value =""
+               return false ;
+
+          }
+
+             document.form1.submit() ; 
+
+         }
+
+      </script>   
+
+  </head>
+  <body>        
+    <div class="icone">
+          <a href="https://www.facebook.com/italo.veneziani.9"><img title="facebook" src="img/face.png"></a>
+          <a href="https://www.instagram.com/italoveneziani/"><img title="Instagram" src="img/insta.png"></a>
+          <a href="https://api.whatsapp.com/send?1=pt_BR&phone=5511989778021"><img title="Whatsapp" src="img/whats.png"></a>
+      </div>
+    
+          <img src="img/logo.png">
+            <div class="logo">
+            <h2>Agende uma aula experimental!</h2>
+          <a href="contato.html">
+            <h1><em>Agende Agora!</em></h1>
+            </a>
+      </div> 
+      <div style="background-image:url('img/back.jpg')" class="back-img"> 
+          <div class="navi">
+        <ul>
+          <a href="index.html">
+            <li>Inicio</li>
+          </a>
+          <a href="sobre.html">
+            <li>Sobre o Personal</li>
+          </a>
+          <a href="servico.html">
+            <li>Serviços</li>
+          </a>  
+          <a href="contato.html">
+            <li>Contato</li>
+          </a>
+
+        </ul>
+         </div>
+      <hr>
+
+
+
+
+<div id="formulario" class="formulario">
+
+<div class="dados">
+      <h1>Fale conosco</h1>
+      <h2>Versus Academia</h2>
+      <p>Rua Jaguaribi, 145 - Jardim Nova Cumbica</p>
+      <p>Guarulhos, SP 07231-360</p>
+      <p>versusacademia@gmail.com</p>
+      <p>Tel: (11) 4966-4881</p>
+      <p>WhatsApp: (11) 97605-9341</p>
+</div>
+
+    <div class="formi">
+    <form name= "form1" method="post" action="grava.jsp">
+    <table>
+
+     <tr>
+     <td> <input type="text" size="38%" name="txtnome" placeholder="Nome*"></td>
+     </tr>
+     <br>
+
+     <tr>
+     <td> <input type="text" size="38%" name= "txtemail" placeholder="E-mail*"></td>
+     </tr>
+     <br>
+
+     <tr>
+     <td> <input type="text" size="38%" name= "txttelefone" placeholder="Telefone*"> </td>
+     </tr>
+     <br>
+
+     <tr>
+     <td> <input type="text" size="38%" name="txtassunto" placeholder="Assunto"></td>
+     </tr>
+     <br>
+
+     <tr>
+     <td> <textarea name="txtmen" cols="40" rows="6" placeholder="Mensagem"> </textarea></td>
+     </tr>
+     <br>
+
+      </table>     
+     <input type="button" align="right" value="Enviar" onclick="validar()">
+     <input type="reset" value="Limpar">
+     </form>
+     </div>
+<div id="mapa" class="mapa">
+     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d58558.2146717162!2d-46.53150820376734!3d-23.46448909101972!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce61db3f4399b9%3A0xfbed96b24cda0ff8!2sVersus+Academia!5e0!3m2!1spt-BR!2sbr!4v1539090018467" width="600" height="450" frameborder="0" style="border:0" allowfullscreen>
+     </iframe>
+ </div>
+</div>
+   </body>
+</html> 

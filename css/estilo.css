@@ -1,0 +1,372 @@
+/* Código Danrley*/
+html,body {
+	margin:0;
+	padding:0;
+	color: white;
+	font-size: 0;
+
+}
+body {
+	font-family: 'Montserrat', sans-serif;
+	background-image:url('img/back.jpg');
+
+	animation-name: main;
+	animation-duration: 2s;
+
+
+}
+
+.icone {
+	text-align: right;
+}
+.icone img {
+	padding-right: 10px;
+}
+.agenda {
+	text-align: right;
+	display: inline-block;
+}
+.agenda h1{
+	font-size: 20px;
+	color: black;
+}
+.agenda h2{
+	font-size: 17px;
+	color: black;
+}
+.navi {
+	height: 60px;
+
+	animation-name: navi;
+	animation-duration: 4s;
+}
+.navi ul {
+	margin-top: 0;
+	list-style: none;
+	padding-left: 0;
+	text-align: center;
+	height: 60px;
+	
+}
+.navi li {
+	padding-right: 70px;
+	padding-left: 70px; 
+	display: inline-block;
+	font-size: 25px;
+	line-height: 60px;
+}
+.navi a {
+	text-decoration: none;
+	color: white;
+	transition: 1s;
+}
+.navi  a:hover {
+	color:#ff8c00;
+	transition: 1s;
+}
+.objetivo {
+	font-size: 20px;
+
+}
+.objetivo h1 {
+	text-align: center;
+
+}
+.miniatura {
+	display: inline-block;
+}
+.miniatura img {
+	width: 380px;
+	height: 280px;
+	background-size: contain;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 30px;
+	
+	
+}
+.miniatura a {
+	text-decoration: none;
+}
+.blackbox {
+	width: 100%;
+ 	height: 100%; 
+}
+.blackbox a {
+	transition: 1s;
+}
+.blackbox p {
+	padding-left: 25px;
+}
+.blackbox a:hover {
+	color:#ff8c00;
+	transition: 1s;
+
+}
+.blackbox-texto {
+	height: 480px;
+}
+.backbox-text hr {
+	padding-left: 25px;
+}
+.blackbox-text h1 {
+	font-size: 25px;
+ 	color:#ff8c00;
+ 	padding-left: 25px;
+ 	padding-right: 25px;
+ 	font-weight: bold;
+}
+
+#img {
+  position: absolute;
+}
+
+#texto {
+  position: absolute;
+  font-size: 35px;
+  left: 100px;
+  top: 70px;
+}
+.logo {
+	width: 300px;
+	margin-left: 950px;
+	text-align: center;
+}
+
+.logo h1 {
+	font-size: 20px;
+	padding-right: 25px;
+	padding-top: 0;
+}
+.logo h2 {
+	font-size: 17px;
+	color: black;
+	padding-right: 25px;
+	font-weight: normal;
+	padding-top: 0;
+}
+.logo a{
+	text-decoration: none;
+	color: black;
+	transition: 1s;
+}
+.logo a:hover{
+	color:#ff8c00;
+	transition: 1s;
+}
+.main {
+	padding-bottom: 15px;
+	padding-left:25px;
+	padding-right: 25px;
+	background-attachment: scroll;
+
+}
+.back-img {
+	background-attachment: scroll;
+	padding-left:70px;
+	padding-right: 70px;
+	padding-bottom: 30px;
+}
+.cont ul {
+	list-style: none;
+	padding-top: 15px;
+	padding-right: 25px;
+}
+.cont li {
+	font-size: 17px;
+	color: white;
+	text-align: right;
+}
+.servico img {
+	width: 500px;
+	height: 400px;
+	background-size: contain;
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 30px;
+}
+
+.pic-pv {
+	float: right;
+}
+.blackbox-texto h1 {
+	font-size: 25px;
+ 	color:#ff8c00;
+ 	padding-left: 25px;
+ 	padding-right: 25px;
+ 	font-weight: bold;
+}
+.blackbox-texto p {
+	color: white;
+	font-size: 20px;
+	text-align: justify;
+	padding-left: 25px;
+	padding-right: 690px;
+	line-height: 26px;
+}
+.blackbox-texto a:hover {
+		color:#ff8c00;
+		transition: 1s;
+
+}
+.blackbox-texto a {
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	padding-left: 25px;
+	transition: 1s;
+}
+.servico a {
+	text-decoration: none;
+	font-size: 18px;
+	color: white;
+	padding-left: 25px;
+	transition: 1s;
+}
+.servico a:hover{
+	color:#ff8c00;
+	transition: 1s;
+}
+.navi li.treline  {
+	display: none;
+}
+.principal {
+	background-color: red;
+
+}
+.formulario .dados {
+	text-align: right;
+}
+.formulario .formi {
+	float: right;
+}
+.dados {
+	float: right;
+	height: 350px;
+	width: 300px;
+	line-height: 20px;
+}
+.dados h1 {
+	font-size: 25px;
+	color: 	#FF4500; 
+	padding-top: 30px;
+	text-align: justify;
+
+}
+.dados h2 {
+	font-size: 22px;
+	text-align: justify;
+
+}
+.dados p {
+	font-size: 18px;
+	text-align: justify;
+}
+.formi {
+	width: 5px;
+	padding-top: 320px;
+}
+.mapa iframe{
+   padding-top: 50px;
+   width: 500px;
+   height: 500px;
+}
+.resumo {
+ margin-left:50px;
+ margin-top:50px; 
+ margin-right:50px;
+ margin-bottom:50px; 
+}
+
+.resumo h1 {
+  font-size:40px; 
+}
+
+.resumo h2 {
+  font-size:35px;
+  color:#f47004;
+  margin-bottom:30px;
+}
+ 
+ .res p {
+   font-size:20px;
+   margin-top:10px;
+   text-align:justify;
+ }
+
+ .res h3 {
+   font-size:30px;
+   text-align:justify;
+ }
+ 
+ .resumo span {
+   color:#f47004;
+ }
+
+.res img {
+  float:right;
+  height:600px;
+  width:450px;
+}
+
+.res {
+ margin-left:50px;
+ margin-top:50px; 
+ margin-right:50px;
+ margin-bottom:50px; 
+ padding-bottom:70px;
+}
+
+
+
+@keyframes main {
+	0% { opacity:0;transform: translate(-40px,0px); }
+	100%{ opacity:1;transform: translate(0px,0px); }
+
+}
+
+@keyframes navi {
+	0% { opacity:0;}
+	50% {opacity:0;}
+	100%{ opacity:1;}
+
+}
+
+@media (max-width: 1000px){
+	.miniatura {
+		display: block;
+	}
+	.main hr {
+		display: none;
+	}
+	.servico {
+		max-width: 100%;
+	}
+	.blackbox-texto h1 {
+		text-align: left;
+		padding: 0;
+		margin: 0;
+
+	}
+	.blackbox-texto p {
+		text-align: left;
+		padding: 0;
+		margin: 0;
+	}
+	.navi li {
+		display: none;
+		text-align: right;
+	}
+
+	.navi li.treline{
+		display: inline-block;
+	}
+	.servico img {
+	max-width: 100%;
+
+	}
+	.pic-pv {
+		float: none;
+		text-align: center;
+	}
+} 
